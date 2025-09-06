@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Untuk Kamu yang Berharga</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            color: #333;
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 40px 20px;
+        }
+        
+        .container {
+            max-width: 800px;
+            background-color: white;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            padding: 40px;
+            margin: 20px 0;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .heart {
+            position: absolute;
+            font-size: 300px;
+            opacity: 0.03;
+            z-index: 0;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            user-select: none;
+        }
+        
+        h1 {
+            color: #e75480;
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 2.5rem;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .content {
+            position: relative;
+            z-index: 1;
+        }
+        
+        p {
+            margin-bottom: 20px;
+            font-size: 1.1rem;
+            text-align: justify;
+        }
+        
+        .highlight {
+            background: linear-gradient(120deg, #fbc7d4 0%, #fbc7d4 100%);
+            background-repeat: no-repeat;
+            background-size: 100% 40%;
+            background-position: 0 90%;
+            font-weight: 600;
+            padding: 0 4px;
+        }
+        
+        .flower {
+            text-align: center;
+            font-size: 40px;
+            margin: 30px 0;
+            color: #e75480;
+            animation: pulse 2s infinite;
+        }
+        
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+            100% { transform: scale(1); }
+        }
+        
+        .signature {
+            text-align: right;
+            font-style: italic;
+            margin-top: 30px;
+            color: #888;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 30px 20px;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+            
+            p {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="heart">❤</div>
+        <h1>Untuk Kamu yang Berharga</h1>
+        
+        <div class="content">
+            <p>Hai, aku tahu mungkin ini bukan tempat atau waktunya, tapi aku ingin kamu tahu sesuatu.</p>
+            
+            <p>Aku dengar kabar bahwa kamu sedang terluka lagi. Aku tahu betapa sulitnya ketika seseorang yang kita percaya justru menyakiti kita. Tapi izinkan aku mengingatkan kamu tentang sesuatu yang mungkin sekarang terasa sulit untuk diingat: <span class="highlight">kamu adalah seseorang yang sangat berharga</span>.</p>
+            
+            <p>Rasa sakit yang kamu rasakan sekarang memang nyata, dan tidak ada yang bisa menyangkal itu. Tapi tolong jangan pernah mengukur nilai dirimu dari bagaimana orang lain memperlakukan kamu. <span class="highlight">Kekurangan seseorang dalam menghargaimu bukanlah cerminan dari nilai dirimu</span>, melainkan cerminan dari siapa mereka.</p>
+            
+            <p>Kamu masih ingat bagaimana dulu kamu bisa bangkit dari luka-luka sebelumnya? Kamu melaluinya dengan begitu kuat, bahkan mungkin tidak kamu sadari. Dan kali ini pun, aku tahu kamu bisa.</p>
+            
+            <p>Jangan biarkan rasa sakit ini membuat kamu lupa betapa luar biasanya dirimu. Kamu dengan segala kebaikan hatimu, senyuman yang bisa menerangi ruangan, dan cara kamu peduli pada orang-orang yang kamu sayangi - <span class="highlight">semua itu tidak berkurang nilai hanya karena seseorang tidak bisa melihatnya</span>.</p>
+            
+            <p>Terkadang, hidup membiarkan kita terluka hanya untuk mengingatkan kita bahwa kita masih manusia, bahwa kita masih bisa merasa, dan bahwa kita punya kesempatan untuk tumbuh menjadi versi yang lebih kuat dari diri kita sebelumnya.</p>
+            
+            <p>Aku ingin kamu tahu bahwa <span class="highlight">kamu tidak sendirian</span>. Meski mungkin sekarang aku tidak ada di sampingmu seperti dulu, tapi percayalah bahwa ada banyak orang yang peduli dan menyayangimu.</p>
+            
+            <p>Ambil waktumu untuk bersedih, tapi jangan terlalu lama. Dunia masih menunggu untuk melihat kamu tersenyum lagi. Dan ketika kamu sudah siap, <span class="highlight">kamu akan bangkit lebih kuat dari sebelumnya</span>.</p>
+            
+            <p>Karena kamu adalah wanita yang kuat, yang telah melalui banyak hal namun tetap mampu mencintai dengan tulus. Jangan biarkan pengalaman buruk ini mengubah cara kamu mencintai, tapi biarkan ini mengajarkan kamu untuk lebih menghargai diri sendiri.</p>
+            
+            <div class="flower">🌹</div>
+            
+            <p><span class="highlight">Kebahagiaanmu bukanlah tanggung jawab orang lain</span>, melainkan tanggung jawab kamu sendiri. Dan aku percaya suatu saat nanti, kamu akan menemukan seseorang yang tidak hanya melihat betapa berharganya dirimu, tetapi juga menghargainya setiap hari.</p>
+            
+            <p>Sampai saat itu tiba, <span class="highlight">cintailah dirimu terlebih dahulu</span>. Rawat lukamu, tapi jangan biarkan itu menentukan masa depanmu.</p>
+            
+            <p class="signature">Dengan kepedulian,<br>Someone who once knew your heart</p>
+        </div>
+    </div>
+    
+    <script>
+        // Efek ketik sederhana untuk membuatnya lebih personal
+        document.addEventListener('DOMContentLoaded', function() {
+            const container = document.querySelector('.container');
+            container.style.opacity = 0;
+            
+            let opacity = 0;
+            const fadeIn = setInterval(function() {
+                if (opacity < 1) {
+                    opacity += 0.03;
+                    container.style.opacity = opacity;
+                } else {
+                    clearInterval(fadeIn);
+                }
+            }, 50);
+        });
+    </script>
+</body>
+</html>
